@@ -1,0 +1,17 @@
+<config>
+    <type name="Magento\Catalog\Block\Product\ListProduct">
+        <plugin name="net_gasoline_unique_url_catalog" type="Netgasoline\Uniqueurls\Model\Source\Plugin" sortOrder="10" disabled="false"/>
+    </type>
+    <type name="Magento\Catalog\Block\Product\ProductList\Related">
+        <plugin name="net_gasoline_unique_url_Related" type="Netgasoline\Uniqueurls\Model\Source\Plugin" sortOrder="10" disabled="false"/>
+    </type>
+    <type name="Magento\Catalog\Block\Product\ProductList\Upsell">
+        <plugin name="net_gasoline_unique_url_Upsell" type="Netgasoline\Uniqueurls\Model\Source\Plugin" sortOrder="10" disabled="false"/>
+    </type>
+    <type name="Magento\CatalogWidget\Block\Product\ProductsList">
+        <plugin name="net_gasoline_unique_url_Widget" type="Netgasoline\Uniqueurls\Model\Source\Plugin" sortOrder="10" disabled="false"/>
+    </type>
+    <type name="Magento\Sitemap\Model\ResourceModel\Catalog\Product">
+        <plugin name="net_gasoline_unique_url_sitemap" type="Netgasoline\Uniqueurls\Model\Source\Plugin" sortOrder="10" disabled="false"/>
+    </type>
+</config>
